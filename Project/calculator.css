@@ -1,0 +1,37 @@
+#calculator{
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    border-radius: 5px;
+     width:200px;
+    background-color: purple;
+    margin-top: 8px;
+    margin-left: 40%;
+}
+#display {
+    margin: 10px;
+    height:30px;
+    width: 85%;
+    color:black;
+}
+.button-container
+{
+ display: flex;
+ justify-content: center;
+ flex-wrap:wrap;
+}
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    cursor: pointer;
+    
+   
+}
+.button :hover{
+   color:rgb(118, 218, 134);
+}
+@media(max-width: 500px)
+{
+ html {
+    font-size: 12pt;
+      }
+}
